@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GRADE SYSTEM</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>CODEX GRADE SYSTEM</h1>
+    </div>
+
+    <div class="inps">
+        <div class="label">
+
+            <label>MATH</label>
+            <input type="text" id="num1" placeholder="score">
+            <label>ENGLISH</label>
+            <input type="text" id="num2" placeholder="score">
+            <label>CHEMISTRY</label>
+            <input type="text" id="num3" placeholder="score">
+            <label>BIOLOGY</label>
+            <input type="text" id="num4" placeholder="score">
+        </div>
+        <div class="butts">
+            <button onClick="grading()" id="buts">Total</button>
+            <p id="result"></p>
+            <button onClick="average()" id="buts">Average</button>
+            <p id="avrg"></p>
+            <button onClick="gradeFinal()" id="buts">Grade</button>
+            <p id="grad"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
